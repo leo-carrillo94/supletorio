@@ -93,7 +93,6 @@ function obtenerEndPointDeporte(){
         function aggLinks(){
             let l1 =document.getElementById("noti0");
            l1.href = "html/democracia.html";
-
        
         }
 
@@ -102,7 +101,7 @@ function obtenerEndPointDeporte(){
             var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
             var f=new Date();
             document.getElementById("fecha").innerHTML= `${f.getDate()} de ${meses[f.getMonth()]} de ${f.getFullYear()}`;
-            document.write(f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+            
         }
 
 
