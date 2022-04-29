@@ -7,7 +7,7 @@ xhttp.onreadystatechange = function() {
        //document.getElementById("demo").innerHTML = xhttp.responseText;
 
        let json = JSON.parse(this.responseText);
-       console.log(json)
+       
 
        let mens = "";
 
@@ -16,7 +16,7 @@ xhttp.onreadystatechange = function() {
     }
     document.getElementById('noticiasTecnologia').innerHTML = mens;
 
-    console.log(mens);
+    
     }
 };
 xhttp.open("GET", "https://carlosreneas.github.io/endpoints/categoria_tecnologia.json", true);
@@ -34,7 +34,7 @@ function obtenerEndPointDeporte(){
            //document.getElementById("demo").innerHTML = xhttp.responseText;
     
            let json = JSON.parse(this.responseText);
-           console.log(json)
+           
     
            let mens = "";
            
@@ -44,7 +44,7 @@ function obtenerEndPointDeporte(){
         }
         document.getElementById('noticiasDeportes').innerHTML = mens;
     
-        console.log(mens);
+        
         }
     };
     xhttp2.open("GET", "https://carlosreneas.github.io/endpoints/categoria_deporte.json", true);
@@ -61,7 +61,7 @@ function obtenerEndPointDeporte(){
                //document.getElementById("demo").innerHTML = xhttp.responseText;
         
                let json = JSON.parse(this.responseText);
-               console.log(json)
+               
         
                let mens = "";
 
@@ -80,7 +80,7 @@ function obtenerEndPointDeporte(){
             }
             document.getElementById('noticiasRes').innerHTML = mens;
         
-            console.log(mens);
+            
             }
         };
         xhttp3.open("GET", "https://carlosreneas.github.io/endpoints/noticias.json", true);
